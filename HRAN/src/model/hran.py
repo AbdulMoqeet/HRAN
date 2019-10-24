@@ -83,8 +83,6 @@ class HRAN(nn.Module):
         scale = args.scale[0]
         act = nn.ReLU(True)
 
-        self.n_blocks = n_blocks
-
         # RGB mean for DIV2K
         rgb_mean = (0.4488, 0.4371, 0.4040)
         rgb_std = (1.0, 1.0, 1.0)
@@ -98,7 +96,7 @@ class HRAN(nn.Module):
         modules_body = nn.ModuleList()
 
         # define body module
-        modules_body = [ ResidualGroup(conv, n_feats, kernel_size, n_blocks) for _ in range(n_resgroups)]
+        modules_body = [ ResidualGroup(conv, n_feats, kernel_size, self.n_blocks) for _ in range(n_resgroups)]
 
 
         modules_tail = [
