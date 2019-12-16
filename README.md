@@ -23,5 +23,4 @@ The trained models are available on <a href="https://drive.google.com/drive/fold
 * **imageio**
 * matplotlib
 * tqdm
-* cv2 >= 3.xx (Only if you want to use video input/output)
 
