@@ -31,9 +31,9 @@ The trained models are available on <a href="https://drive.google.com/drive/fold
 The extraction and proper utilization of convolutional neural network (CNN) features have a significant impact on the performance of image super-resolution (SR). Although CNN features contain both spatial and channel information, current deep learning techniques for SR often suffer to maximize the performance due to using either the spatial information or channel information. Moreover, they integrate such information within a deep or wide network rather than exploiting all the available features, eventually resulting in high computational complexity. To address these issues, we present a binarized feature fusion (BFF) structure that utilizes the extracted features from global residuals (GR) in an effective way. Each GR consists of multiple hybrid residual attention blocks (HRAB) that effectively integrates the multiscale feature extraction module and channel attention mechanism in a single block. Furthermore, to save computational power, instead of using a large filter size, we use convolutions with different dilation factors to extract multiscale features. We also propose to adopt global skip connections (GSC), short skip connections (SSC), long skip connections (LSC) and GR structure to ease the flow of information without losing important features details. In the paper, we call this overall network architecture as hybrid residual attention network (HRAN). In the experiment, we have observed the efficacy of our method against the state-of-the-art methods for both the quantitative and qualitative comparisons.
 
 
-![HRAB](/Figures/HRAB.PNG)
+![HRAB](/Figures/HRAB.png)
 Hybrid Residual attention block (HRAB) architecture.
-![HRAN](/Figures/HRAN.PNG)
+![HRAN](/Figures/HRAN.png)
 The architecture of our proposed hybrid residual attention network (HRAN).
 
 ## Train
@@ -59,7 +59,7 @@ Comparison of memory and performance. Results are evaluated on Urban100 (×4)
 ![Visual_PSNR_SSIM_BI](/Figures/vis_results.png)
 Visual results with Bicubic (BI) degradation (4×) on on Urban100 and Manga109 datasets
 
-For more results, please refer to our [main papar](https://ieeexplore.ieee.org/abstract/document/8844684) 
+For more results, please refer to our [paper](https://ieeexplore.ieee.org/abstract/document/8844684) 
 
 ## Citation
 If you find this code helpful in your research, please cite the following paper.
