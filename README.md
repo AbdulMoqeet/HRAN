@@ -1,7 +1,7 @@
 # HRAN
 ### This repository is an official PyTorch implementation of the paper "HRAN : Hybrid Residual Attention Network for Single Image Super Resolution".
 
-Paper can be download from <a href="https://arxiv.org/pdf/1907.05514.pdf">HRAN</a> 
+Paper can be download from <a href="https://ieeexplore.ieee.org/document/8844684">HRAN</a> 
 
 All test datasets (Preprocessed HR images) can be downloaded from <a href="https://www.jianguoyun.com/p/DcrVSz0Q19ySBxiTs4oB">here</a>.
 
