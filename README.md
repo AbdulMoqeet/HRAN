@@ -7,7 +7,6 @@ All test datasets (Preprocessed HR images) can be downloaded from <a href="https
 
 All original test datasets (HR images) can be downloaded from <a href="https://www.jianguoyun.com/p/DaSU0L4Q19ySBxi_qJAB">here</a>.
 
-#The trained models are available on <a href="https://drive.google.com/drive/folders/1MC3jXCxnKeJDElkFLmCvCsjmZzSGPIs0?usp=sharing"> Google Drive</a>
 
 --------------------
 
